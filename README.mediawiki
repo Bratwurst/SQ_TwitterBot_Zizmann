@@ -4,9 +4,9 @@ Ein Client um verschiedenen Twitter-Benutzern zu folgen.
 
 == How to use? ==
 
-Twitter Client.jar ausführen, nach dem Start werden die letzten 20 Status-Updates im Hauptfenster
-angezeigt. Im linken unteren Textfeld können Screen Namen angegeben werden und mit dem Follow Button 
-bestätig, diesen Nutzern wird dan gefolt.
-Alle 15 Sekunden wird das Hauptfenster aktualisiert. Falls Nachricht für den Benutzer eingehen 
+Twitter Client.jar ausfuehren, nach dem Start werden die letzten 20 Status-Updates im Hauptfenster
+angezeigt. Im linken unteren Textfeld koennen Screen Namen angegeben werden und mit dem Follow Button 
+bestaetig, diesen Nutzern wird dan gefolt.
+Alle 15 Sekunden wird das Hauptfenster aktualisiert. Falls Nachricht fuer den Benutzer eingehen 
 werden diese mit einer standart Nachricht beantwortet.
 
