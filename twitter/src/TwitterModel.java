@@ -15,6 +15,8 @@ public class TwitterModel extends Observable {
 	private Twitter twitter;
 	private String userName;
 	private ArrayList<String> tweets = new ArrayList<String>();
+	private String lastMassage = "";
+	private String z = "";
 
 	public Twitter getTwitter() {
 		return twitter;
@@ -71,21 +73,22 @@ public class TwitterModel extends Observable {
 		try {
 			List<Status> statuses = twitter.getHomeTimeline();
 			List<Status> mentions = twitter.getMentions();
+			tweets = new ArrayList<String>();
 
 			for (Status status : statuses) {
 				tweets.add(status.getUser().getName() + ":" + status.getText());
 			}
 
-			for (Status stat:mentions) {
-
+			if(!mentions.get(0).getText().equals(lastMassage)){
 				 try {
-				
+				 z += "z";
 				 twitter.updateStatus("@"
-				 + stat.getUser().getScreenName()
-				 + " I'm spending some quality time with my pillow.ZZZzzzZZZzz");
+				 + mentions.get(0).getUser().getScreenName()
+				 + " I'm spending some quality time with my pillow.ZZZzzzZZZzz"+z);
 				 } catch (TwitterException te) {
-				 // falls doppelt: keine fehler
+					 	te.printStackTrace();
 				 }
+				 lastMassage = mentions.get(0).getText();
 			}
 
 		} catch (TwitterException te) {
