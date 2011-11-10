@@ -15,8 +15,8 @@ public class TwitterModel extends Observable {
 	private Twitter twitter;
 	private String userName;
 	private ArrayList<String> tweets = new ArrayList<String>();
-	private String lastMassage = "";
-	private String z = "";
+	private String msg1 = " I'm spending some quality time with my pillow.ZZZzzzZZZzzz";
+	private String msg2 = " Reden ist Silber, Schweigen ist Gold und Googeln ist Chrome.";
 
 	public Twitter getTwitter() {
 		return twitter;
@@ -71,25 +71,24 @@ public class TwitterModel extends Observable {
 
 	public void getTimeline() {
 		try {
-			List<Status> statuses = twitter.getHomeTimeline();
+			String msg = msg1;
+			Status lastMess = twitter.getUserTimeline().get(0);
 			List<Status> mentions = twitter.getMentions();
 			tweets = new ArrayList<String>();
 
-			for (Status status : statuses) {
-				tweets.add(status.getUser().getName() + ":" + status.getText());
+			for (int i = 0; i< 5 ;i++) {
+				tweets.add(mentions.get(i).getUser().getName() + ":" + mentions.get(i).getText());
 			}
-
-			if(!mentions.get(0).getText().equals(lastMassage)){
+			
+			if(lastMess.getCreatedAt().before(mentions.get(0).getCreatedAt()))
 				 try {
-				 z += "z";
-				 twitter.updateStatus("@"
-				 + mentions.get(0).getUser().getScreenName()
-				 + " I'm spending some quality time with my pillow.ZZZzzzZZZzz"+z);
+					 if(lastMess.getText().contains(msg1)) msg = msg2;
+					 twitter.updateStatus("@"
+					 + mentions.get(0).getUser().getScreenName()+msg+" "+mentions.get(0).getCreatedAt());
 				 } catch (TwitterException te) {
 					 	te.printStackTrace();
 				 }
-				 lastMassage = mentions.get(0).getText();
-			}
+			
 
 		} catch (TwitterException te) {
 			te.printStackTrace();
