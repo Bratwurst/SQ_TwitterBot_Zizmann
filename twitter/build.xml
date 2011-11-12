@@ -46,7 +46,7 @@
 			<!-- ant test -Dtestcase=<fully qualified classname> -->
 			<!-- <sysproperty key="docs.dir" value="${test.dir}/org"/> Manche Tests 
 				benötigen System Properties, diese können im Test umdefiniert werden. -->
-			<batchtest todir="${reports.xml.dir}" unless="testcase">
+			<batchtest fork="yes" todir="${reports.xml.dir}" unless="testcase">
 				<fileset dir="${test.dir}">
 					<include name="**/*Test.java" />
 				</fileset>
