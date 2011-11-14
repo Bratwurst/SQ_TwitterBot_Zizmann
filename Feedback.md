@@ -17,4 +17,5 @@ Der Code ist simple und übersichtlich. Automatisch generierte Methoden sind eig
 In der Konsole werden zur Laufzeit ganze HTML Seiten von Twitter gelogged, welchen Mehrwehrt bringt das?
 
 ***
-Bewertung: Ich bewerte dieses Projekt mit 3 Punkten.
+Bewertung: Ich bewerte dieses Projekt mit 4 Punkten.
+
