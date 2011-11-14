@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Friedrich-PC" name="ParserToolsTest" tests="9" time="0.172" timestamp="2011-11-12T14:51:36">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="lib.dir" value="." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre6\lib\resources.jar;C:\Program Files\Java\jre6\lib\rt.jar;C:\Program Files\Java\jre6\lib\sunrsasign.jar;C:\Program Files\Java\jre6\lib\jsse.jar;C:\Program Files\Java\jre6\lib\jce.jar;C:\Program Files\Java\jre6\lib\charsets.jar;C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar;C:\Program Files\Java\jre6\classes" />
+    <property name="reports.html.dir" value="reports/html" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="net.sourceforge.cobertura.datafile" value="D:\SQ_TwitterBot_Zizmann\twitter\${cobdata}" />
+    <property name="ant.home" value="D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="java.runtime.version" value="1.6.0_29-b11" />
+    <property name="user.name" value="Friedrich" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre6\bin" />
+    <property name="reports.dir" value="reports" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="ant.project.name" value="twitter" />
+    <property name="java.version" value="1.6.0_29" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre6\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.file.type.twitter" value="file" />
+    <property name="classes.dir" value="bin" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="DE" />
+    <property name="java.home" value="C:\Program Files\Java\jre6" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="ant.file" value="D:\SQ_TwitterBot_Zizmann\twitter\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="20.4-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+    <property name="reports.xml.dir" value="reports/xml" />
+    <property name="user.home" value="C:\Users\Friedrich" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="test.dir" value="test" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Program Files\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_21\bin;C:\Program Files\Maven\apache-maven-3.0.1\bin;D:\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ParserToolsTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\SQ_TwitterBot_Zizmann\twitter\reports\xml\TEST-ParserToolsTest.xml crashfile=D:\SQ_TwitterBot_Zizmann\twitter\junitvmwatcher137367738980364702.properties propsfile=D:\SQ_TwitterBot_Zizmann\twitter\junit155333954571767244.properties" />
+    <property name="java.class.path" value="D:\SQ_TwitterBot_Zizmann\twitter\${inst.dir};D:\SQ_TwitterBot_Zizmann\twitter\bin;D:\SQ_TwitterBot_Zizmann\twitter\junit-4.10.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="eclipse.pdebuild.home" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+    <property name="java.io.tmpdir" value="C:\Users\FRIEDR~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="ant.file.twitter" value="D:\SQ_TwitterBot_Zizmann\twitter\build.xml" />
+    <property name="user.dir" value="D:\SQ_TwitterBot_Zizmann\twitter" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="D:\SQ_TwitterBot_Zizmann\twitter" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="ParserToolsTest" name="testStandardEmail" time="0.0060" />
+  <testcase classname="ParserToolsTest" name="testEmailIsNot_A_URL" time="0.0" />
+  <testcase classname="ParserToolsTest" name="testEmailWorksWith4LetterDomain" time="0.0010" />
+  <testcase classname="ParserToolsTest" name="testEmailWithNumbers" time="0.0010" />
+  <testcase classname="ParserToolsTest" name="testEmailWithDomainNumbers" time="0.0" />
+  <testcase classname="ParserToolsTest" name="testEmailWithoutDomain" time="0.0" />
+  <testcase classname="ParserToolsTest" name="testEmailTooShort" time="0.0" />
+  <testcase classname="ParserToolsTest" name="testEmailWith4LengthDomain" time="0.0" />
+  <testcase classname="ParserToolsTest" name="testHyphenEmail" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

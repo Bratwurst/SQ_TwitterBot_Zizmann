@@ -97,6 +97,14 @@ public class TwitterModel extends Observable {
 		notifyObservers();
 
 	}
+	
+	
+//	public String answer(String user){
+//		String ret = "";
+//		
+//		
+//		return ret;
+//	}
 
 	public String addFriend(String name) {
 		String ret = "";
