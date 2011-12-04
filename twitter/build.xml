@@ -71,6 +71,21 @@
 		<delete dir="${inst.dir}" />
 		<delete dir="${cob.rep}" />
 	</target>
+	
+	<taskdef classpathref="junit.classpath" resource="tasks.properties" />
+		<target name="cob-instr" depends="compile">
+			<cobertura-instrument todir="${inst.dir}" datafile="${cobdata}">
+			    <fileset dir="${classes.dir}">
+			        <include name="**/*.class" />
+			        <exclude name="**/*Test.class" />
+			        <exclude name="**/*Suite.class" />
+			    </fileset>
+			</cobertura-instrument>
+		</target>
+
+	<target name="cob-rep" depends="cob-instr, test" description="erzeugt Cobertura Reports">
+		<cobertura-report format="html" datafile="${cobdata}" destdir="${cob.rep.html}" srcdir="${src.dir}" />
+	</target>
 
 
 
