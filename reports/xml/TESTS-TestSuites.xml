@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Friedrich-PC" id="0" name="CutTest" package="" tests="1" time="0.189" timestamp="2011-12-04T11:28:27">
+  <testsuite errors="0" failures="0" hostname="Friedrich-PC" id="0" name="CutTest" package="" tests="1" time="0.152" timestamp="2011-12-04T14:08:13">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
@@ -22,7 +22,7 @@
 
           <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
 
-          <property name="net.sourceforge.cobertura.datafile" value="D:\SQ_TwitterBot_Zizmann\twitter\cobertura.ser" />
+          <property name="net.sourceforge.cobertura.datafile" value="D:\SQ_TwitterBot_Zizmann\cobertura.ser" />
 
           <property name="ant.home" value="D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300" />
 
@@ -70,9 +70,9 @@
 
           <property name="java.vm.info" value="mixed mode, sharing" />
 
-          <property name="cobdata" value="D:\SQ_TwitterBot_Zizmann\twitter/cobertura.ser" />
+          <property name="cobdata" value="D:\SQ_TwitterBot_Zizmann/cobertura.ser" />
 
-          <property name="ant.file" value="D:\SQ_TwitterBot_Zizmann\twitter\build.xml" />
+          <property name="ant.file" value="D:\SQ_TwitterBot_Zizmann\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -100,7 +100,7 @@
 
           <property name="test.dir" value="test" />
 
-          <property name="config" value="D:\SQ_TwitterBot_Zizmann\twitter/config" />
+          <property name="config" value="D:\SQ_TwitterBot_Zizmann/config" />
 
           <property name="java.library.path" value="C:\Program Files\Java\jre6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Program Files\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_21\bin;C:\Program Files\Maven\apache-maven-3.0.1\bin;D:\eclipse;;." />
 
@@ -110,13 +110,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner CutTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\SQ_TwitterBot_Zizmann\twitter\reports\xml\TEST-CutTest.xml crashfile=D:\SQ_TwitterBot_Zizmann\twitter\junitvmwatcher6022822659026110946.properties propsfile=D:\SQ_TwitterBot_Zizmann\twitter\junit7884909828979325444.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner CutTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\SQ_TwitterBot_Zizmann\reports\xml\TEST-CutTest.xml crashfile=D:\SQ_TwitterBot_Zizmann\junitvmwatcher7376849895014264840.properties propsfile=D:\SQ_TwitterBot_Zizmann\junit7536213184922285718.properties" />
 
           <property name="cob.rep.html" value="cob-rep/html" />
 
           <property name="cob.rep.xml" value="cob-rep/xml" />
 
-          <property name="java.class.path" value="D:\SQ_TwitterBot_Zizmann\twitter\cob-instr;D:\SQ_TwitterBot_Zizmann\twitter\bin;D:\SQ_TwitterBot_Zizmann\twitter\lib\ant-junit.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\asm-3.0.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\asm-tree-3.0.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\cobertura.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\jakarta-oro-2.0.8.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\junit-4.10.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\junit-4.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\log4j-1.2.9.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-async-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-core-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-examples-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-media-support-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-stream-2.2.5.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="D:\SQ_TwitterBot_Zizmann\cob-instr;D:\SQ_TwitterBot_Zizmann\bin;D:\SQ_TwitterBot_Zizmann\lib\ant-junit.jar;D:\SQ_TwitterBot_Zizmann\lib\asm-3.0.jar;D:\SQ_TwitterBot_Zizmann\lib\asm-tree-3.0.jar;D:\SQ_TwitterBot_Zizmann\lib\cobertura.jar;D:\SQ_TwitterBot_Zizmann\lib\jakarta-oro-2.0.8.jar;D:\SQ_TwitterBot_Zizmann\lib\junit-4.10.jar;D:\SQ_TwitterBot_Zizmann\lib\junit-4.5.jar;D:\SQ_TwitterBot_Zizmann\lib\log4j-1.2.9.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-async-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-core-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-examples-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-media-support-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-stream-2.2.5.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
@@ -142,9 +142,9 @@
 
           <property name="cob.rep" value="cob-rep" />
 
-          <property name="ant.file.twitter" value="D:\SQ_TwitterBot_Zizmann\twitter\build.xml" />
+          <property name="ant.file.twitter" value="D:\SQ_TwitterBot_Zizmann\build.xml" />
 
-          <property name="user.dir" value="D:\SQ_TwitterBot_Zizmann\twitter" />
+          <property name="user.dir" value="D:\SQ_TwitterBot_Zizmann" />
 
           <property name="inst.dir" value="cob-instr" />
 
@@ -152,7 +152,7 @@
 
           <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
 
-          <property name="basedir" value="D:\SQ_TwitterBot_Zizmann\twitter" />
+          <property name="basedir" value="D:\SQ_TwitterBot_Zizmann" />
 
           <property name="ant.java.version" value="1.6" />
 
@@ -175,7 +175,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Friedrich-PC" id="1" name="ParserToolsTest" package="" tests="9" time="0.163" timestamp="2011-12-04T11:28:28">
+  <testsuite errors="0" failures="0" hostname="Friedrich-PC" id="1" name="ParserToolsTest" package="" tests="9" time="0.192" timestamp="2011-12-04T14:08:14">
       <properties>
           <property name="java.vendor" value="Sun Microsystems Inc." />
 
@@ -197,7 +197,7 @@
 
           <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
 
-          <property name="net.sourceforge.cobertura.datafile" value="D:\SQ_TwitterBot_Zizmann\twitter\cobertura.ser" />
+          <property name="net.sourceforge.cobertura.datafile" value="D:\SQ_TwitterBot_Zizmann\cobertura.ser" />
 
           <property name="ant.home" value="D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300" />
 
@@ -245,9 +245,9 @@
 
           <property name="java.vm.info" value="mixed mode, sharing" />
 
-          <property name="cobdata" value="D:\SQ_TwitterBot_Zizmann\twitter/cobertura.ser" />
+          <property name="cobdata" value="D:\SQ_TwitterBot_Zizmann/cobertura.ser" />
 
-          <property name="ant.file" value="D:\SQ_TwitterBot_Zizmann\twitter\build.xml" />
+          <property name="ant.file" value="D:\SQ_TwitterBot_Zizmann\build.xml" />
 
           <property name="os.version" value="6.1" />
 
@@ -275,7 +275,7 @@
 
           <property name="test.dir" value="test" />
 
-          <property name="config" value="D:\SQ_TwitterBot_Zizmann\twitter/config" />
+          <property name="config" value="D:\SQ_TwitterBot_Zizmann/config" />
 
           <property name="java.library.path" value="C:\Program Files\Java\jre6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Program Files\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_21\bin;C:\Program Files\Maven\apache-maven-3.0.1\bin;D:\eclipse;;." />
 
@@ -285,13 +285,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ParserToolsTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\SQ_TwitterBot_Zizmann\twitter\reports\xml\TEST-ParserToolsTest.xml crashfile=D:\SQ_TwitterBot_Zizmann\twitter\junitvmwatcher2852057930483357252.properties propsfile=D:\SQ_TwitterBot_Zizmann\twitter\junit6385581423345343561.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ParserToolsTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\SQ_TwitterBot_Zizmann\reports\xml\TEST-ParserToolsTest.xml crashfile=D:\SQ_TwitterBot_Zizmann\junitvmwatcher2653689345159716651.properties propsfile=D:\SQ_TwitterBot_Zizmann\junit649270781387004694.properties" />
 
           <property name="cob.rep.html" value="cob-rep/html" />
 
           <property name="cob.rep.xml" value="cob-rep/xml" />
 
-          <property name="java.class.path" value="D:\SQ_TwitterBot_Zizmann\twitter\cob-instr;D:\SQ_TwitterBot_Zizmann\twitter\bin;D:\SQ_TwitterBot_Zizmann\twitter\lib\ant-junit.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\asm-3.0.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\asm-tree-3.0.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\cobertura.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\jakarta-oro-2.0.8.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\junit-4.10.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\junit-4.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\log4j-1.2.9.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-async-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-core-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-examples-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-media-support-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\twitter\lib\twitter4j-stream-2.2.5.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
+          <property name="java.class.path" value="D:\SQ_TwitterBot_Zizmann\cob-instr;D:\SQ_TwitterBot_Zizmann\bin;D:\SQ_TwitterBot_Zizmann\lib\ant-junit.jar;D:\SQ_TwitterBot_Zizmann\lib\asm-3.0.jar;D:\SQ_TwitterBot_Zizmann\lib\asm-tree-3.0.jar;D:\SQ_TwitterBot_Zizmann\lib\cobertura.jar;D:\SQ_TwitterBot_Zizmann\lib\jakarta-oro-2.0.8.jar;D:\SQ_TwitterBot_Zizmann\lib\junit-4.10.jar;D:\SQ_TwitterBot_Zizmann\lib\junit-4.5.jar;D:\SQ_TwitterBot_Zizmann\lib\log4j-1.2.9.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-async-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-core-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-examples-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-media-support-2.2.5.jar;D:\SQ_TwitterBot_Zizmann\lib\twitter4j-stream-2.2.5.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
 
@@ -317,9 +317,9 @@
 
           <property name="cob.rep" value="cob-rep" />
 
-          <property name="ant.file.twitter" value="D:\SQ_TwitterBot_Zizmann\twitter\build.xml" />
+          <property name="ant.file.twitter" value="D:\SQ_TwitterBot_Zizmann\build.xml" />
 
-          <property name="user.dir" value="D:\SQ_TwitterBot_Zizmann\twitter" />
+          <property name="user.dir" value="D:\SQ_TwitterBot_Zizmann" />
 
           <property name="inst.dir" value="cob-instr" />
 
@@ -327,7 +327,7 @@
 
           <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
 
-          <property name="basedir" value="D:\SQ_TwitterBot_Zizmann\twitter" />
+          <property name="basedir" value="D:\SQ_TwitterBot_Zizmann" />
 
           <property name="ant.java.version" value="1.6" />
 
@@ -347,11 +347,11 @@
 
       <testcase classname="ParserToolsTest" name="testEmailIsNot_A_URL" time="0.0" />
 
-      <testcase classname="ParserToolsTest" name="testEmailWorksWith4LetterDomain" time="0.0" />
+      <testcase classname="ParserToolsTest" name="testEmailWorksWith4LetterDomain" time="0.0010" />
 
       <testcase classname="ParserToolsTest" name="testEmailWithNumbers" time="0.0" />
 
-      <testcase classname="ParserToolsTest" name="testEmailWithDomainNumbers" time="0.0010" />
+      <testcase classname="ParserToolsTest" name="testEmailWithDomainNumbers" time="0.0" />
 
       <testcase classname="ParserToolsTest" name="testEmailWithoutDomain" time="0.0" />
 
