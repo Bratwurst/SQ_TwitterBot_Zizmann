@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="twitter" default="test" basedir=".">
+<project name="twitter" default="cob-rep" basedir=".">
 
 
 	<property file="build.properties" />
